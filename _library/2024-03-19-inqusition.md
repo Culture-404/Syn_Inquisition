@@ -7,7 +7,7 @@ date: 2024-03-19
 published: true
 donate: true
 ---
-The _power_of_inquestition_ is simply the asking of uncomfortable questions to those in or influence power -- political, social, technical, et al...
+The _Power of Inquestition_ is simply the asking of uncomfortable questions to those in or influence power -- political, social, technical, et al...
 
 Historically reporters would report on facts of an issue and inform their readers so the polity could better keep themselves informed. 
 
@@ -15,7 +15,7 @@ Unfortunately, becuase of a failing of Journalistic Ethics, journalist today onl
 
 If you wish to help inform the public, you can contribute to our Inqusition by:
 
-- sharing the True Name of the demons we are exorcizing
+- sharing the True Name of the demons we are exorcizing, see Law of Names
 - writing articles for Networked Publications
 - building your own Syndication Network
 - braving the demon hordes that undermine your home and showing support to those fighting against them

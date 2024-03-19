@@ -1,7 +1,7 @@
 # Commit Syn(dication)
 Blaspheme their god! Defile their idols! COMMIT SYN! 
 
-Learn coding, developer operations, and web site optimization (SEO, UI, and Performance) and combat the gods of Woke Tyrants through the power of ~~Journalism~~ Inquisition!
+Learn coding, developer operations, and website optimization (SEO, UI, and Performance) and combat the gods of Woke Tyrants through the power of ~~Journalism~~ Inquisition!
 
 ## Help restore ethics in journalism! 
 

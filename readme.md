@@ -5,13 +5,16 @@ Learn coding, developer operations, and web site optimization (SEO, UI, and Perf
 
 This guide, designed by gamers for gamers, will take you through the process of learning and using a diverse entry level skillset to run a news, factchecking, or blog website. You will learn:
 
-- Basic HTML/CSS/JS
+- Basic sitebuilding
+  -  Learning HTML/CSS
+  -  Templating and Layout Design
+  -  Simple JavaScript (frontend)
+- Syndication, RSS, and re-decentralizing the web
 - Holistic Optimization
   - Content Architecture
   - Search Engine (SEO)
   - Site Speed
   - User Interface (UI) and Accessibility
-- Syndication, RSS, and re-decentralizing the web
 - Accelerate with Artificial Intelligence 
 
   

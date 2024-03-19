@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Commit Syn"
+title: "Syn Inquisition"
 permalink: /
 ---
 

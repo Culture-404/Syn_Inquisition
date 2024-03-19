@@ -6,15 +6,15 @@ plugins:
 collections:
   library:
     output: true
-url: "https://itsvanaken.com/"
+url: "https://syn.culture404.com/"
 domain: "ItsVanAken.com"
 baseurl: "/"
-title: Alex Van Aken
+title: Culture 404 News
 description: Leading Video @GameInformer || 3D Artist || Game Dev || Musician || Multiplayer Sicko 
 
-summary: Alex Van Aken is a woke journalist
-navbar_title: Alex Van Aken
-twitter_handle: "@itsVanAken"
+summary: Defending Gamers Aagainst Culture Warriors
+navbar_title: Culture 404 News
+twitter_handle: ""
 image: "/path/to/img.jpg"
 theme_color: "#ffffff"
 color: "#002a86"

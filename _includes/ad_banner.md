@@ -1,3 +1,6 @@
-## Who is Alex Van Aken?
+## Cast Out Demons!
+{: .display-6 }
 
-Is Alex a game developer or radical activist using his position to push an ideology hates gamers?
+Interested in Becoming ~~a Journalist~~ Inquisitor, Web Designer, or Developer Operations Sepcialist?
+
+Visit our Wiki and teach yourself the skills needed to become a force for TRUTH!

@@ -96,7 +96,7 @@ layout: default
                         <p class="lh-1"><small>Help Keep this platform Ad Free -- Donate Bitcoin Today!</small></p>
                     </div>
                     <div class="col-12">
-                        <img src="assets/images/culture-404-wallet.png" class="img-fluid">
+                        <img src="{{ page.btc_wallet_path  | default: site.data.donate_settings.btc_wallet_path  }}" class="img-fluid">
                     </div>
                 </div>   
             </div>

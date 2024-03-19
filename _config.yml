@@ -1,0 +1,23 @@
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+collections:
+  library:
+    output: true
+url: "https://itsvanaken.com/"
+domain: "ItsVanAken.com"
+baseurl: "/"
+title: Alex Van Aken
+description: Leading Video @GameInformer || 3D Artist || Game Dev || Musician || Multiplayer Sicko 
+
+summary: Alex Van Aken is a woke journalist
+navbar_title: Alex Van Aken
+twitter_handle: "@itsVanAken"
+image: "/path/to/img.jpg"
+theme_color: "#ffffff"
+color: "#002a86"
+display_wallet: false
+paginate: 10
+paginate_path: "/news/page_:num/" 

@@ -1,0 +1,28 @@
+<div class="bg-light mt-5">
+    <section id="donate"  class="container   py-5">
+        <div class="row justify-content-center">
+       
+            <div class="col-lg-6 col-md-8 ">
+                <h2 class="display-4 mb-5">{{  page.call_to_action | default: site.data.donate_settings.call_to_action }}</h2>
+                    
+                {% capture donate_content %}{% include donate.md %}{% endcapture %}
+                {{ donate_content | markdownify }}
+                <!-- <p>Give Bitcoin to support independent artists, game developers, and other creatives. Learn about more projects at <a href="https://www.culture404.com/about" target="_blank">Culture 404</a>.</p> -->
+                
+            </div>
+    
+            <div class="col-lg-2 col-md-4">
+                <img src="{{ page.btc_wallet_path  | default: site.data.donate_settings.btc_wallet_path  }}" class="img-fluid mt-5">
+            </div>
+            <div class="col-lg-8 col-md-12 mt-5">
+                <!-- <h2 id="walletBalanceInUSD" class="d-inline lead fs-1 my-2">Counting balance in the wallet...</h2> -->
+                <div class="input-group mb-3">
+                    <label for="btcAddress" class="input-group-text">{{ page.btc_wallet_name | default: site.data.donate_settings.btc_wallet_name }}</label>
+                    <input type="text" class="form-control" id="btcAddress" value="{{ page.btc_wallet_address | default: site.data.donate_settings.btc_wallet_address }}" readonly>
+                    <button class="btn btn-outline-secondary" type="button" id="copyButton">Copy</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</div>

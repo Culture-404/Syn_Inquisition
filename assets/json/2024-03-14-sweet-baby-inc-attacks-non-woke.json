@@ -1,0 +1,31 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ClaimReview",
+  "datePublished": "2024-03-15",
+  "url": "https://alyssamercante.com/",
+  "author": {
+    "@type": "Organization",
+    "name": "Culture 404",
+    "url": "https://www.culture404.com/"
+  },
+  "claimReviewed": "Did Anti-Woke Gamers Create A Conspiracy Theory to Attack Sweet Baby Inc?",
+  "itemReviewed": {
+    "@type": "CreativeWork",
+    "author": {
+      "@type": "Organization",
+      "name": "Aftermath",
+      "url": "https://aftermath.site/sweet-baby-detected-conspiracy-theory-steam"
+    },
+    "datePublished": "2024-03-07",
+    "name": "Did Anti-Woke Gamers Create A Conspiracy Theory to Attack Sweet Baby Inc?",
+    "url": "https://aftermath.site/sweet-baby-detected-conspiracy-theory-steam"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": 0,
+    "bestRating": 10,
+    "worstRating": 1,
+    "alternateName": "False"
+  },
+  "reviewBody": "Nathan Grayson ignores the actions Alyssa Mercante and Chris Kindred took in starting GamerGate 2 and labels the defensive actions gamers took to secure their privacy and property from Sweet Baby Inc's racist hate mob as a \"Conspiracy Theory.\""
+}

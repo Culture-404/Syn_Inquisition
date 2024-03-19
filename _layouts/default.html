@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+
+    <title>{{ page.title }}|{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+
+    {% if page.canonical %}
+    <!-- Canonical Link -->
+    <link rel="canonical" href="{{ page.canonical }}" />
+    {% endif %}
+
+    <!-- Favicons -->
+    {% include favicons.html %}
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title | default: site.title }}">
+    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ page.image  | default: site.url | append: site.image  }}">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="{{ page.summary | default:site.summary}}">
+    <meta name="twitter:site" content="{{ site.twitter_handle }}">
+    <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+    <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+    <meta name="twitter:image" content="{{ page.image  | default: site.url | append: site.image  }}">
+    
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    
+    {% if page.factcheck %}
+    <script type="application/ld+json" src="{{ page.factcheck }}"></script>
+    {% endif %}
+</head>
+
+<body>
+    {% include google_analytics.html %}
+    {% include navbar.html %}
+
+    {{ content }}
+
+
+    {% if page.donate or site.donate  %}
+    {% include donate.html %}
+    {% endif %}
+
+    
+
+   {% include footer.html %}
+  
+    <!-- Assets -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    {% if page.donate or site.donate  %}
+    <script src="/assets/js/btc-copy.js"></script>
+    {% endif %}
+
+    {% if page.display_wallet or site.display_wallet  %}
+    <script src="/assets/js/btc-wallet.js"></script>
+    {% endif %}
+</body>
+
+</html>

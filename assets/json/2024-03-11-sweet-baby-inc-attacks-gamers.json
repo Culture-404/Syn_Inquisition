@@ -1,0 +1,31 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ClaimReview",
+  "datePublished": "2024-03-15",
+  "url": "https://alyssamercante.com/",
+  "author": {
+    "@type": "Organization",
+    "name": "Culture 404",
+    "url": "https://www.culture404.com/"
+  },
+  "claimReviewed": "Sweet Baby Inc. Is Under Attack Due to Conservative Conspiracy Theories",
+  "itemReviewed": {
+    "@type": "CreativeWork",
+    "author": {
+      "@type": "Organization",
+      "name": "PC Gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/a-company-called-sweet-baby-inc-has-become-the-target-of-anti-woke-gamers-because-it-offers-consultancy-work-an-industry-standard-service-thats-been-normal-for-years/"
+    },
+    "datePublished": "2024-03-07",
+    "name": "A company called Sweet Baby Inc. has become the target of 'anti-woke' gamers because it offers consultancy work, an industry-standard service that's been normal for years",
+    "url": "https://www.pcgamer.com/gaming-industry/a-company-called-sweet-baby-inc-has-become-the-target-of-anti-woke-gamers-because-it-offers-consultancy-work-an-industry-standard-service-thats-been-normal-for-years/"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": 0,
+    "bestRating": 10,
+    "worstRating": 1,
+    "alternateName": "False"
+  },
+  "reviewBody": "No, PC Gamer's article is misleading. Gamers are criticizing Sweet Baby Inc for an attempt to silence, ban, and have the property seized from a gamer who published a list of games SBI had a hand in creating."
+}

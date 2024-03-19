@@ -1,0 +1,116 @@
+---
+layout: default
+---
+
+<div class="container-fluid bg-dark text-light mb-2">
+    <div class="row justify-content-center ">
+        <!-- <div class="col-5 px-0 d-flex flex-column white-90"> 
+            <img class="img-fluid opacity-85 my-auto" src="">
+        </div> -->
+        <div class="jumbotron custom-jumbotron col-10 p-5" >
+            
+
+            {{ content }}
+            
+            
+            <!-- <h2 class="display-6  mt-4 pt-4 text-uppercase ff-germania">Distributed Factchecking Network</h2> -->
+
+        </div>
+    </div>
+</div>
+
+<div class="container-lg mt-4">
+    <div class="row justify-content-between" > 
+
+        <div class="col-lg-6 col-md-7 col-12 mb-5 mt-0">
+            <h2 class="fs-6 border-bottom border-light border-5 border-secondary pb-3 mb-3">Featured Articles</h2>
+            
+            {% assign library = site.library | sort: 'date' | reverse %}
+            {% if site.library.size == 0 %}
+            <h5>Factchecks and other articles coming soon...</h5>
+            {% else %}
+            {% for item in library %}
+            <div class="bg-white text-dark">
+                <h3 class="h5 mb-0 lh-base text-justify">
+                    <a href="{{ item.url }}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover">{{ item.title }}</a>
+                </h3>
+                <h4 class="h6 black-50 text-end mb-5 border-bottom border-light border-3">{{ item.date | date: "%A, %B %d, %Y" }}</h4>
+                <!-- <p>{{ item.excerpt | strip_html | truncatewords: 50, "..." }}
+                    <a href="{{ item.url }}" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">continue</a>.
+                </p> -->
+            </div>
+            {% assign wrapper_class = "bg-white text-dark" %}
+            {% endfor %} 
+            {% endif %}           
+
+        </div>
+        
+        <div class="bg-light text-dark col-lg-5 col-md-4 col-12 mb-3 mt-0 d-flex flex-column p-0">
+           
+            <div class="container-fluid bg-dark text-light fs-6 fw-bolder p-3 mb-3 ">
+                <div class="row justify-content-between">
+                    <div class="col">
+                        <h2>News</h2>
+
+                    </div>
+                    <div class="col d-flex flex-column justify-content-center">
+                        <a href="/feed.xml" target="_blank" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover align-self-end" aria-label="Subscribe to RSS">Feed <i class="fas fa-rss ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+            {% assign previousDate = nil %}
+            {% for post in site.posts %}
+            {% assign currentDate = post.date | date: "%Y-%m-%d" %}
+            
+            {% if previousDate == nil %}
+                <small class="px-3 text-end mb-3">{{ post.date | date: "%B %d, %Y" }}</small>
+            {% else %}
+                {% if currentDate != previousDate %}
+                    <hr class="white m-0">
+                    <hr class="white m-0">
+                    <small class="px-3  text-end mb-3 border-top border-white border-5">{{ post.date | date: "%B %d, %Y" }}</small>
+                {% else %}
+                    <hr class="white m-0 w-25 align-self-end">
+                {% endif %}
+            {% endif %}
+
+            <h3 class="h6 px-3 pt-0 pb-3 my-0">
+                <a href="{{ post.url }}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">{{ post.title }}</a>
+            </h3>
+           
+            {% assign previousDate = currentDate %}
+
+            
+            {% endfor %}
+
+            
+            <div class="posts">
+                {% for post in paginator.posts %}
+                <div class="post">
+                  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                  <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+                </div>
+                {% endfor %}
+              </div>
+              
+              <div class="pagination">
+                {% if paginator.previous_page %}
+                  <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+                {% else %}
+                  <span class="previous disabled">Previous</span>
+                {% endif %}
+                {% if paginator.next_page %}
+                  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+                {% else %}
+                  <span class="next disabled">Next</span>
+                {% endif %}
+              </div>
+        </div>
+    </div>
+</div>
+
+{% include ad_banner.html %}

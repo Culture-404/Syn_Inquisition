@@ -1,0 +1,31 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ClaimReview",
+  "datePublished": "2024-03-15",
+  "url": "https://alyssamercante.com/",
+  "author": {
+    "@type": "Organization",
+    "name": "Culture 404",
+    "url": "https://www.culture404.com/"
+  },
+  "claimReviewed": "Sweet Baby Inc. Is Under Attack Due to Conservative Conspiracy Theories",
+  "itemReviewed": {
+    "@type": "CreativeWork",
+    "author": {
+      "@type": "Organization",
+      "name": "Kotaku",
+      "url": "https://kotaku.com/sweet-baby-inc-consulting-games-alan-wake-2-dei-1851312428"
+    },
+    "datePublished": "2024-03-06",
+    "name": "Sweet Baby Inc. Doesn’t Do What Some Gamers Think It Does",
+    "url": "https://kotaku.com/sweet-baby-inc-consulting-games-alan-wake-2-dei-1851312428"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": 0,
+    "bestRating": 10,
+    "worstRating": 1,
+    "alternateName": "False"
+  },
+  "reviewBody": "False. Sweet Baby Inc. attacked an innocent Steam user and people of all political varieties came to defend against the online hate mob Sweet Baby Inc. incited."
+}

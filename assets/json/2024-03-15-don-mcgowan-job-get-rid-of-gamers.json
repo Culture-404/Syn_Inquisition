@@ -1,0 +1,31 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ClaimReview",
+  "datePublished": "2024-03-15",
+  "url": "https://alyssamercante.com/",
+  "author": {
+    "@type": "Organization",
+    "name": "Culture 404",
+    "url": "https://www.culture404.com/"
+  },
+  "claimReviewed": "Was Don McGowan Job to Get \"Rid\" of Anti-Woke Gamers?",
+  "itemReviewed": {
+    "@type": "CreativeWork",
+    "author": {
+      "@type": "Organization",
+      "name": "That Park Place",
+      "url": "https://thatparkplace.com/former-bungie-and-the-pokemon-company-lawyer-defends-sweet-baby-inc-says-his-job-was-to-get-rid-of-anti-woke-gamers/"
+    },
+    "datePublished": "2024-03-14",
+    "name": "Former Bungie And The Pokémon Company Lawyer Defends Sweet Baby Inc., Says His Job Was To Get “Rid” Of Anti-Woke Gamers",
+    "url": "https://thatparkplace.com/former-bungie-and-the-pokemon-company-lawyer-defends-sweet-baby-inc-says-his-job-was-to-get-rid-of-anti-woke-gamers/"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": 0,
+    "bestRating": 10,
+    "worstRating": 10,
+    "alternateName": "Fair, Balanced, and Truth Seeking"
+  },
+  "reviewBody": "After reviewing the evidence and history of the claim, we rate this article as Fair, Balanced, and Truth Seeking, the highest ranking we can give to an article."
+}

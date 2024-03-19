@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="container-fluid bg-dark text-light">
+    <div class="row justify-content-center">
+        <!-- <div class="col-4 px-0 d-flex flex-column white-90"> 
+            <img class="img-fluid opacity-85 my-auto" src="">
+        </div> -->
+        <div class="jumbotron custom-jumbotron col-10 p-5 d-flex flex-column" >
+            <h1 class="display-3 text-capitalize my-auto"">{{ page.title }}</h1>
+            
+        </div>
+    </div>
+</div>
+<div class="container  mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-12 mb-3">
+            {{ content }}
+
+            {% if page.canonical %}
+            <!-- Canonical Disclaimer -->
+            <p>
+                Originally published at <a target="_blank" href="{{ page.canonical }}" >{{ page.canonical_name }}</a>.
+            </p>
+            {% endif %}
+        </div>
+        
+    </div>
+</div>
+
+  
+  

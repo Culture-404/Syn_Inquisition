@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About Syn"
+title: "About Syn - Culture 404 News Feed"
 permalink: /about-syn
 date: 2024-03-15
 # factcheck: "/assets/json/2024-03-15-about-syn.json"

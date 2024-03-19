@@ -1,12 +1,30 @@
 ---
 layout: home
-title: "Alex Van Aken"
+title: "Commit Syn"
 permalink: /
 ---
-# ALEX VAN AKEN
+# Commit Syn(dication)
 {: .display-1.mb-4.text-uppercase }
 
-Leading Video [@GameInformer](https://twitter.com/GameInformer){:target="_blank" .link-warning.link-offset-2.link-underline-opacity-0.link-underline-opacity-25-hover } - 3D Artist - Game Dev - Musician - Multiplayer Sicko
-{: .lead.fs-3.text-capitalize }
+Blaspheme their god! Defile their idols! COMMIT SYN!
+{: .lead }
 
+Learn coding, developer operations, and web site optimization (SEO, UI, and Performance) and combat the gods of Woke Tyrants through the power of Artificial Intelligence. 
 
+## Help restore ethics in journalism! 
+
+This guide, designed by gamers for gamers, will take you through the process of learning and using a diverse entry level skillset to run a news, factchecking, or blog website. You will learn:
+
+- Basic sitebuilding
+  -  Learning HTML/CSS
+  -  Templating and Layout Design
+  -  Simple JavaScript (frontend)
+- Syndication, RSS, and re-decentralizing the web
+- Holistic Optimization
+  - Content Architecture
+  - Search Engine (SEO)
+  - Site Speed
+  - User Interface (UI) and Accessibility
+- Accelerate with Artificial Intelligence 
+
+  

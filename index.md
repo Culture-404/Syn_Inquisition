@@ -13,6 +13,7 @@ Blaspheme their god! Defile their idols! COMMIT SYN!
 Learn coding, developer operations, and web site optimization (SEO, UI, and Performance) and combat the gods of Woke Tyrants through the power of Artificial Intelligence. 
 
 ## Help restore ethics in journalism! 
+{: .display-6.mt-4 }
 
 This guide, designed by gamers for gamers, will take you through the process of learning and using a diverse entry level skillset to run a news, factchecking, or blog website. You will learn:
 

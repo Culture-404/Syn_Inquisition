@@ -3,6 +3,7 @@ layout: home
 title: "Commit Syn"
 permalink: /
 ---
+
 # Commit Syn(dication)
 {: .display-5.mb-4.text-uppercase }
 

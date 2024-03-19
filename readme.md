@@ -1,0 +1,17 @@
+# Commit Syn(dication)
+Blaspheme their god! Defile their idols! COMMIT SYN!
+
+Learn coding, developer operations, and web site optimization (SEO, UI, and Performance) and combat the gods of Woke Tyrants through the power of Artificial Intelligence. 
+
+This guide, designed by gamers for gamers, will take you through the process of learning and using a diverse entry level skillset to run a news or blog website. You will learn:
+
+- Basic HTML/CSS/JS
+- Holistic Optimization
+  - Content Architecture
+  - Search Engine (SEO)
+  - Site Speed
+  - User Interface (UI) and Accessibility
+- Syndication, RSS, and re-decentralizing the web
+- Accelerate with Artificial Intelligence 
+
+  

@@ -41,7 +41,7 @@ small{
 }
 
 p,li{
-    font-size: 125%;
+    /* font-size: 125%; */
     letter-spacing: normal;
     line-height: 36.2304px;
 }

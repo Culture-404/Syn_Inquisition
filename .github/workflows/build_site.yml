@@ -1,0 +1,36 @@
+name: Compile-and-Publish-Website
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Jekyll site repository
+      uses: actions/checkout@v2
+
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+        bundler-cache: true
+        
+    - name: Install paginate
+      run: gem install jekyll-paginate
+      
+    - name: Install specific Bundler version
+      run: gem install bundler -v 2.4.22
+
+    - name: Build and test with Jekyll
+      run: |
+        bundle install
+        bundle exec jekyll build
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: site
+        path: _site/

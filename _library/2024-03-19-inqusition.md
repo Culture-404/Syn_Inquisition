@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "What is the Power of Inqusition?"
-permalink: /inqusition
+permalink: /power-of-inqusition
 date: 2024-03-19
-# factcheck: "/assets/json/2024-03-19-inqusition.json"
 published: true
 donate: true
 ---

@@ -4,7 +4,7 @@ title: "Commit Syn"
 permalink: /
 ---
 # Commit Syn(dication)
-{: .display-1.mb-4.text-uppercase }
+{: .display-5.mb-4.text-uppercase }
 
 Blaspheme their god! Defile their idols! COMMIT SYN!
 {: .lead }

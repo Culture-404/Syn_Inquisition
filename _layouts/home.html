@@ -45,60 +45,7 @@ layout: default
 
         </div>
         
-        <div class="bg-light text-dark col-lg-3 col-md-4 col-12 my-0 d-flex flex-column p-0 ">
-            
-            <div class="container-fluid bg-dark text-light fs-6 fw-bolder p-3 mb-1 ">
-                <div class="row justify-content-between">
-                    <div class="col-8">
-                        <h2 class="h4 mb-0">Recent News</h2>
-
-                    </div>
-                    <div class="col-4 d-flex flex-column justify-content-center">
-                        <a href="/feed.xml" target="_blank" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover align-self-end" aria-label="Subscribe to RSS">Feed <i class="fas fa-rss ms-1"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            {% assign previousDate = nil %}
-            {% for post in site.posts | limit: 5  %}
-            {% assign currentDate = post.date | date: "%Y-%m-%d" %}
-            
-            {% if previousDate == nil %}
-                <small class="px-3 text-end mb-3">{{ post.date | date: "%B %d, %Y" }}</small>
-            {% else %}
-                {% if currentDate != previousDate %}
-                    <hr class="white hr-height m-0">
-                    <small class="px-3  text-end mb-3 border-top border-white border-5">{{ post.date | date: "%B %d, %Y" }}</small>
-                {% else %}
-                    <hr class="white m-0 w-25 hr-height align-self-end mb-2 ">
-                {% endif %}
-            {% endif %}
-
-            <h3 class="h6 px-3 pt-0 pb-3 my-0">
-                <a href="{{ post.url }}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">{{ post.title }}</a>
-            </h3>
-           
-            {% assign previousDate = currentDate %}
-
-            
-            {% endfor %}
-            <hr class="white hr-height m-0">
-            <a href="/news" class="mt-0 btn btn-light fw-bolder py-4 rounded-0">More News</a>
-
-            <div class="container-fluid bg-dark text-light fs-6 fw-bolder p-3 mb-0 ">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="h4">Donate</h3>
-                        <p class="lh-1"><small>Help Keep this platform Ad Free -- Donate Bitcoin Today!</small></p>
-                    </div>
-                    <div class="col-12">
-                        <img src="{{ page.btc_wallet_path  | default: site.data.donate_settings.btc_wallet_path  }}" class="img-fluid">
-                    </div>
-                </div>   
-            </div>
-
-
-        </div>
+        {% include news_feed.html %}
     </div>
 </div>
 

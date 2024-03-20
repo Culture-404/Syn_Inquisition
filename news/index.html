@@ -53,7 +53,7 @@ title: "Video Game News"
                 {% endif %}
             {% endif %}
 
-            <h3 class="h6 px-3 pt-0 pb-3 my-0">
+            <h3 class="h4 px-3 pt-0 pb-3 my-0">
                 <a href="{{ post.url }}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">{{ post.title }}</a>
             </h3>
            
@@ -88,29 +88,30 @@ title: "Video Game News"
                     
 
 
-                </div>
-
-
-                {% assign library = site.library | sort: 'date'   %}
-                {% if site.library.size == 0 %}
-                <h5>Factchecks and other articles coming soon...</h5>
-                {% else %}
-                {% for item in library %}
-                <div class="bg-white text-dark">
-                    <h3 class="h4 mb-0 lh-base text-justify mb-3">
-                        <a href="{{ item.url }}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover">{{ item.title }}</a>
-                    </h3>
-                    <!-- <h4 class="h6 black-50 text-end mb-5 border-bottom border-light border-3">{{ item.date | date: "%A, %B %d, %Y" }}</h4> -->
-                    <!-- <p>{{ item.excerpt | strip_html | truncatewords: 50, "..." }}
-                        <a href="{{ item.url }}" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">continue</a>.
-                    </p> -->
-                </div>
-                {% assign wrapper_class = "bg-white text-dark" %}
-                {% endfor %} 
-                {% endif %}   
-                
-                
+                </div>                
             </div>
+
+
+            {% assign library = site.library | sort: 'date'   %}
+            {% if site.library.size == 0 %}
+            <h5>Factchecks and other articles coming soon...</h5>
+            {% else %}
+            {% for item in library %}
+            <div class="bg-white text-dark">
+                <h3 class="h6 mb-0 lh-base text-justify mb-3">
+                    <a href="{{ item.url }}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover">{{ item.title }}</a>
+                </h3>
+                <!-- <h4 class="h6 black-50 text-end mb-5 border-bottom border-light border-3">{{ item.date | date: "%A, %B %d, %Y" }}</h4> -->
+                <!-- <p>{{ item.excerpt | strip_html | truncatewords: 50, "..." }}
+                    <a href="{{ item.url }}" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">continue</a>.
+                </p> -->
+            </div>
+            {% assign wrapper_class = "bg-white text-dark" %}
+            {% endfor %} 
+            {% endif %}   
+            
+
+            
         </div>
     </div>
 </div>

@@ -45,11 +45,10 @@ title: "News Around the Web"
                 <small class="px-3 text-end mb-3">{{ post.date | date: "%B %d, %Y" }}</small>
             {% else %}
                 {% if currentDate != previousDate %}
-                    <hr class="white m-0">
-                    <hr class="white m-0">
+                    <hr class="white hr-height m-0">
                     <small class="px-3  text-end mb-3 border-top border-white border-5">{{ post.date | date: "%B %d, %Y" }}</small>
                 {% else %}
-                    <hr class="white m-0 w-25 align-self-end">
+                    <hr class="white hr-height m-0 w-25 align-self-end">
                 {% endif %}
             {% endif %}
 

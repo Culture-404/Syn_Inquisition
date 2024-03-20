@@ -93,37 +93,7 @@ title: "News Around the Web"
                 {% endif %}
               </div>
         </div>
-        <div class="bg-light text-dark col-lg-3 col-md-4 col-12 my-0 d-flex flex-column p-0 ">
-            <div class="container-fluid bg-dark text-light fs-6 fw-bolder p-3 mb-3 ">
-                <div class="row justify-content-between">
-                    <div class="col-12">
-                        <h2 class="h4 mb-0">Featured Articles</h2>
-                    </div>
-                </div>                
-            </div>
-
-
-            {% assign library = site.library | sort: 'date'   %}
-            {% if site.library.size == 0 %}
-            <h5>Factchecks and other articles coming soon...</h5>
-            {% else %}
-            {% for item in library %}
-            <div class="text-dark border-bottom border-3 border-secondary border-opacity-25 mb-3">
-                <h3 class="h6 mb-0 lh-base text-justify p-3">
-                    <a href="{{ item.url }}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover">{{ item.title }}</a>
-                </h3>
-                <!-- <h4 class="h6 black-50 text-end mb-5 border-bottom border-light border-3">{{ item.date | date: "%A, %B %d, %Y" }}</h4> -->
-                <!-- <p>{{ item.excerpt | strip_html | truncatewords: 50, "..." }}
-                    <a href="{{ item.url }}" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">continue</a>.
-                </p> -->
-            </div>
-            {% assign wrapper_class = "bg-white text-dark" %}
-            {% endfor %} 
-            {% endif %}   
-            
-
-
-        </div>
+        {% include sidebar_library.html %}
     </div>
 </div>
 

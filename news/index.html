@@ -99,7 +99,7 @@ title: "News Around the Web"
                 <div class="row justify-content-between">
                     <div class="col-12">
 
-                        <h2 class="fs-6 border-secondary">Featured Articles</h2>
+                        <h2 class="fs-6 mb-0 border-secondary">Featured Articles</h2>
             
                     </div>
                 </div>                
@@ -112,7 +112,7 @@ title: "News Around the Web"
             {% else %}
             {% for item in library %}
             <div class="bg-white text-dark">
-                <h3 class="h6 mb-0 lh-base text-justify mb-3">
+                <h3 class="h6 mb-0 lh-base text-justify my-3 border-bottom border-3 border-secondary">
                     <a href="{{ item.url }}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover">{{ item.title }}</a>
                 </h3>
                 <!-- <h4 class="h6 black-50 text-end mb-5 border-bottom border-light border-3">{{ item.date | date: "%A, %B %d, %Y" }}</h4> -->

@@ -67,20 +67,28 @@ title: "News Around the Web"
               <div class="pagination d-flex justify-content-between">
                 {% if paginator.previous_page %}
                 <div class="col">
-                    <a href="{{ paginator.previous_page_path }}" class="btn btn-dark rounded-0 mt-5">Previous</a>
+                    <div class="d-grid gap-2">
+                        <a href="{{ paginator.previous_page_path }}" class="btn btn-dark rounded-0 mt-5">Previous</a>
+                    </div>
                 </div>
                 {% else %}
                 <div class="col">
-                    <a class="btn btn-dark rounded-0 mt-5 disabled">Previous</a>
+                    <div class="d-grid gap-2">
+                        <a class="btn btn-dark rounded-0 mt-5 disabled">Previous</a>
+                    </div>
                 </div>
                 {% endif %}
                 {% if paginator.next_page %}
                 <div class="col">
-                    <a href="{{ paginator.next_page_path }}" class="btn btn-dark rounded-0 mt-5">Next</a>
+                    <div class="d-grid gap-2">
+                        <a href="{{ paginator.next_page_path }}" class="btn btn-dark rounded-0 mt-5">Next</a>
+                    </div>
                 </div>
                 {% else %}
                 <div class="col">
-                    <a class="btn btn-dark rounded-0 mt-5 disabled">Next</a>
+                    <div class="d-grid gap-2">
+                        <a class="btn btn-dark rounded-0 mt-5 disabled">Next</a>
+                    </div>
                 </div>
                 {% endif %}
               </div>

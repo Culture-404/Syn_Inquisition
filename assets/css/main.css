@@ -61,5 +61,5 @@ hr{
     background: #061d3e;
 }
 .hr-height{
-    height:8px;
+    height:.3rem!important;
 }

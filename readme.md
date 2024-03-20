@@ -19,4 +19,7 @@ This guide, designed by gamers for gamers, will take you through the process of 
   - User Interface (UI) and Accessibility
 - Accelerate with Artificial Intelligence 
 
-  
+---
+
+### Dev Notes:
+Command for adding the _posts submodule: `git submodule add https://github.com/Culture-404/_posts.git` 

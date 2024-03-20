@@ -25,7 +25,7 @@ layout: default
         <div class="col-lg-8 col-md-7 col-12 mb-5 mt-0">
             <h2 class="fs-6 border-bottom border-light border-5 border-secondary pb-3 mb-3">Featured Articles</h2>
             
-            {% assign library = site.library | sort: 'date'  %}
+            {% assign library = site.library | sort: 'date' | limit: 10   %}
             {% if site.library.size == 0 %}
             <h5>Factchecks and other articles coming soon...</h5>
             {% else %}

@@ -14,8 +14,8 @@ layout: default
     </div>
 </div>
 <div class="container  mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-10 col-12 mb-3">
+    <div class="row justify-content-between">
+        <div class="col-lg-8 col-md-7 col-12 mb-3">
             {{ content }}
 
             {% if page.canonical %}
@@ -24,6 +24,20 @@ layout: default
                 Originally published at <a target="_blank" href="{{ page.canonical }}" >{{ page.canonical_name }}</a>.
             </p>
             {% endif %}
+        </div>
+
+        <div class="bg-light text-dark col-lg-3 col-md-4 col-12 my-0 d-flex flex-column p-0 ">
+            <div class="container-fluid bg-dark text-light fs-6 fw-bolder p-3 mb-3 ">
+                <div class="row justify-content-between">
+                    <div class="col">
+                        <h2>Sidebar</h2>
+
+                    </div>
+                    <div class="col d-flex flex-column justify-content-center">
+                        <a href="/feed.xml" target="_blank" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover align-self-end" aria-label="Subscribe to RSS">Feed <i class="fas fa-rss ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
         
     </div>

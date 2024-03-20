@@ -68,7 +68,6 @@ layout: default
             {% else %}
                 {% if currentDate != previousDate %}
                     <hr class="white m-0">
-                    <hr class="white m-0">
                     <small class="px-3  text-end mb-3 border-top border-white border-5">{{ post.date | date: "%B %d, %Y" }}</small>
                 {% else %}
                     <hr class="white m-0 w-25 align-self-end">
@@ -83,7 +82,7 @@ layout: default
 
             
             {% endfor %}
-
+            <hr class="white m-0">
             <a href="/news" class="mt-3 btn btn-light fw-bolder py-4 rounded-0">More News</a>
 
             <div class="container-fluid bg-dark text-light fs-6 fw-bolder p-3 mb-0 ">

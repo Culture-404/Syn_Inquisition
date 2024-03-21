@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Power of Inqusition?"
+title: "Power of Inqusition"
 permalink: /power-of-inqusition
 date: 2024-03-19
 published: true

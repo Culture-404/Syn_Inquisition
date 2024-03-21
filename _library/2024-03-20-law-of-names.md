@@ -6,7 +6,7 @@ date: 2024-03-20
 published: true
 donate: true
 ---
-When the [True Name](https://en.wikipedia.org/wiki/True_name){:target="_blank"} is known to the user, they invoke power over the person or object. 
+When the [True Name](https://en.wikipedia.org/wiki/True_name){:target="_blank"} is known to the user, they invoke power over it. 
 {: .lead.fs-4 }
 
 The Law of Names states that if one knows the True Name of a person, object, or instution, they command a power over the demonic entity. 

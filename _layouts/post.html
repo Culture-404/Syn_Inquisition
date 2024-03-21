@@ -18,7 +18,7 @@ layout: default
         <div class="col-lg-8 col-md-7 col-12 mb-3">
             {{ content }}
 
-            {% if page.canonical %}
+            {% if page.canonical and page.canonical_name != site.domain %}
             <!-- Canonical Disclaimer -->
             <p>
                 Originally published at <a target="_blank" href="{{ page.canonical }}" >{{ page.canonical_name }}</a>.

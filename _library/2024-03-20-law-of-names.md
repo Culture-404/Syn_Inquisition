@@ -25,7 +25,7 @@ Their names link to the binding of the Demon Name to our Sigil of Warding, or a 
 - [Alyssa Mercante](https://alyssamercante.com/)
   - Lying about Kabrutus and Sweet Baby Inc Detected kickstarting ~~Gamergate 2~~ the Great Revival
 - [Dr. Rachel Kowert](https://drkowert.com/)
-  - Spreading misinforamation about gamers and exteremism without peer review -- from a "scientific" field that cannot meet a basic requirment of the scientific process (Replicability)[https://www.ncbi.nlm.nih.gov/books/NBK547524/#:~:text=Replication%20is%20one%20of%20the,reliable%20claim%20to%20new%20knowledge.]{:target="_blank"}, see [Replication Crisis](https://en.wikipedia.org/wiki/Replication_crisis){:target="_blank"}
+  - Spreading misinforamation about gamers and exteremism without peer review -- from a "scientific" field that cannot meet a basic requirment of the scientific process (Replicability)[https://www.ncbi.nlm.nih.gov/books/NBK547524/#:~:text=Replication%20is%20one%20of%20the,reliable%20claim%20to%20new%20knowledge]{:target="_blank"}, see [Replication Crisis](https://en.wikipedia.org/wiki/Replication_crisis){:target="_blank" }
   
 
 ---

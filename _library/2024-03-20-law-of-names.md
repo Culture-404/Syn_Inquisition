@@ -27,5 +27,12 @@ Their names link to the binding of the Demon Name to our Sigil of Warding, or a 
   - Lying about Kabrutus and Sweet Baby Inc Detected kickstarting ~~Gamergate 2~~ the Great Revival
 - [Dr. Rachel Kowert](https://drkowert.com/){:target="_blank" .link-dark }
   - Spreading misinformation about gamers and extremism without peer review, from a “scientific” field that cannot meet a basic requirement of the scientific process, [Replicability](https://www.ncbi.nlm.nih.gov/books/NBK547524/#:~:text=Replication%20is%20one%20of%20the,reliable%20claim%20to%20new%20knowledge.){:target="_blank" .link-dark }, see [Replication Crisis](https://en.wikipedia.org/wiki/Replication_crisis){:target="_blank" .link-dark  }.
-  
+- [Alex Van Aken](https://itsvanaken.com/){:target="_blank" .link-dark }
+  - Lying about being targeted by gamers when they disagreed
+- [Elise Favis](https://elisefavis.com/)
+  - Defending bad journalism with lies and falsehoods
+- [Levi Winslow](https://leviwinslow.com/)
+  - Kotaku
+- [Alyse Stanley]()
+  - Racist, sexist, and self described disaster
 
